@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context="com.example.pc.e_ticketing.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="358dp"
+        android:layout_height="50dp"
+        android:text="Sign In"
+        android:textStyle="bold|italic"
+        android:textSize="11pt"
+        android:background="#F08080"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="358dp"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:textStyle="bold|italic"
+        android:textSize="11pt"
+        android:background="#F08080"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="445dp" />
+</android.support.constraint.ConstraintLayout>
